@@ -1,17 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { useSelector } from 'react-redux';
 import styles from './Books.module.css';
 import AddBook from './AddBook';
 import Book from './Book';
 
 function Books() {
   // eslint-disable-next-line no-unused-vars
-  const [books, setBooks] = useState([
-    {
-      id: 1,
-      title: 'Harry Potter',
-      author: 'JK ROWLING',
-    },
-  ]);
+  const books = useSelector((state) => state.booksReducer);
 
   return (
     <div className={styles.container}>
