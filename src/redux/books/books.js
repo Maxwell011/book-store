@@ -34,7 +34,7 @@ function bookReducer(state = initialState, action) {
           author: action.payload.author,
         },
       ];
-      return [...state, recent];
+      return state.concat(recent);
     }
     case REMOVE_BOOK:
       return state.filter((each) => each.id !== action.id);
