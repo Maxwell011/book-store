@@ -1,51 +1,31 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# BookStore CMS
-
-> A fun site that allows you to add a book and an author then Posts on the api and display the books. used React, Javascript, CSS.
-
+# BookStore
+This is an app that  displays a list of books, allow users add a book and remove a selected book.
 
 ## Built With
 
-- Html, CSS, Javascript
-- Bootstrap, React
-- Node.js and npm package manager
+- HTML
+- CSS
+-React
 
-## For Live Demo :  
-[Click here](www.liveshow.com)
-
+## Live demo link (Not Available)
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running:
 
-### Prerequisites
+1. Clone this repository or download the Zip folder:
 
-### Setup
-  ```
-  git clone <ssh link>
+**``git clone https://github.com/jheart-vic/BookStore.git``**
 
-  ```
-### Install
-    ```
-    npm install
-    ```
-### Usage
-```
-npm start
-```
-### Run tests
-```
-npm test
-```
-### Deployment
-```
-npm run build
-```
+2. use the following commands
 
+**``npm install ``**, 
+**``npm start``**
 
-## Authors
+## Author
 
 👤 **ORJI MAXWELL**
 
@@ -53,23 +33,20 @@ npm run build
 
 - GitHub: [@githubhandle](https://github.com/Maxwell011)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/chukwuemeka-orji-50b766241/)
-   
+
+## Credits
+
+Template from this [MICROVERSE](https://www.microverse.org/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Please feel free to contact me. 
+Feel free to check the [issues page](https://github.com/jheart-vic/BookStore/issues).
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+Give a ⭐️ if you like this project and how we manage to build it!
 
 ## 📝 License
 
