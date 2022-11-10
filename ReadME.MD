@@ -18,7 +18,7 @@ To get a local copy up and running:
 
 1. Clone this repository or download the Zip folder:
 
-**`git clone https://github.com/jheart-vic/BookStore.git`**
+**`git clone https://github.com/Orji-Maxwell/BookStore.git`**
 
 2. use the following commands
 
