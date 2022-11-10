@@ -5,9 +5,11 @@ import { removeBook } from '../redux/books/books';
 // eslint-disable-next-line react/prop-types
 const Book = ({ book }) => {
   // eslint-disable-next-line react/prop-types
-  const { title, author, id } = book;
+  const {
+    // eslint-disable-next-line react/prop-types
+    title, author, category, id,
+  } = book;
   const dispatch = useDispatch();
-
   const handleDelete = () => {
     dispatch(removeBook(id));
   };
@@ -16,6 +18,7 @@ const Book = ({ book }) => {
     <li>
       <h2>{title}</h2>
       <h2>{author}</h2>
+      <h2>{category}</h2>
       <button type="button" id={id} onClick={handleDelete}>
         Remove
       </button>

@@ -1,27 +1,39 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useDispatch } from 'react-redux';
 import styles from './AddBook.module.css';
 import { addBook } from '../redux/books/books';
 
 function AddBook() {
-  const [book, setBook] = useState({
-    title: '',
-    author: '',
-    id: `${Date.now()}`,
-  });
+  let title = '';
+  let category = '';
+  let author = '';
   const dispatch = useDispatch();
-
+  const clearAll = () => {
+    setTimeout(() => {
+      title = '';
+      category = '';
+      author = '';
+    });
+  };
   const handleClick = (e) => {
     e.preventDefault();
-    dispatch(addBook(book));
+    dispatch(
+      addBook({
+        id: String(`${Date.now()}`), title, author, category,
+      }),
+    );
+    clearAll();
   };
 
   const handleChange = (e) => {
     if (e.target.name === 'title') {
-      setBook({ title: e.target.value, author: book.author });
+      title = e.target.value;
     }
     if (e.target.name === 'author') {
-      setBook({ title: book.title, author: e.target.value });
+      author = e.target.value;
+    }
+    if (e.target.name === 'category') {
+      category = e.target.value;
     }
   };
 
@@ -43,9 +55,15 @@ function AddBook() {
           placeholder="author name"
           className={styles.input}
         />
-        <input type="text" placeholder="category" className={styles.input} />
+        <input
+          type="text"
+          name="category"
+          onChange={handleChange}
+          placeholder="category"
+          className={styles.input}
+        />
         <button
-          type="button"
+          type="submit"
           onClick={handleClick}
           value="Add"
           label="Add"
