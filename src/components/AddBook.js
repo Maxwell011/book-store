@@ -52,6 +52,13 @@ function AddBook() {
         />
         <input
           type="text"
+          name="author"
+          onChange={handleChange}
+          placeholder="Author name"
+          className={styles.inputAuthor}
+        />
+        <input
+          type="text"
           name="category"
           onChange={handleChange}
           placeholder="Category"
