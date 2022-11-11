@@ -1,27 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;600;700;800&family=Montserrat&family=Roboto+Slab&family=Roboto:wght@700&display=swap");
+
 body {
+  /* background-color: white; */
+  background-color: coral;
+
   margin: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* padding: 4%; */
+  font-family: "Montserrat", sans-serif;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+.title-heading {
+  font-family: "Roboto-Slab", sans-serif;
+  font-weight: 800;
+  text-transform: capitalize;
+  width: 22.813rem;
+  height: 1.813rem;
+  margin: 0.188rem 9.688rem 0 0;
+  font-size: 1.375rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.2px;
+}
+
+.category {
+  text-transform: capitalize;
+  font-weight: 600;
+  opacity: 0.5;
+  width: 4.313rem;
+  height: 1.125rem;
+  margin: 0 1.188rem 0 0;
+  opacity: 0.5;
+  font-family: Montserrat;
+  font-size: 0.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--black-two);
+}
+
+.author {
+  color: #4386bf;
+}
+
+.update {
+  background-color: #0290ff;
+  padding: 15px 20px;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button {
+  border: none;
+  color: #fff;
+  background-color: #0290ff;
+  cursor: pointer;
+  padding: 12px 20px;
+  border-radius: 4px;
+}
+
+/* .button:hover {
+  background-color: #4386bf;
+  border-radius: 5px;
+  padding: 5px 9px;
+  color: #fff;
+} */
+
+.button:active {
+  background-color: grey;
+}
+
+.progress-percent {
+  font-size: 40px;
+  color: #0290ff;
+}
+
+.progress-complete {
+  /* margin-top: -30px; */
 }

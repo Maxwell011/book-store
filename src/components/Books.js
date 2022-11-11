@@ -17,7 +17,7 @@ function Books() {
   return (
     <div className={styles.container}>
       <div className={styles.bookList}>
-        <ul className={styles.item}>
+        <ul className={styles.bookCard}>
           {books?.map((book) => <Book key={book.id} book={book} />)}
         </ul>
       </div>

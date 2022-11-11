@@ -2,3 +2,62 @@
   margin: 0;
   padding: 0;
 }
+
+.form {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.inputTitle,
+.inputCategory {
+  padding: 10px;
+  width: 28.5rem;
+  margin-right: 20px;
+  border-radius: 4px;
+  border: solid 1px #e8e8e8;
+  background-color: #fff;
+}
+
+.addBtn {
+  background: #0290ff;
+}
+
+.addBtn:hover {
+  box-shadow: 0 0 6px #6e6e6e;
+  background: brown;
+  transition: all 0.5s ease-in-out;
+}
+
+.addBtn {
+  color: #fff;
+  border: none;
+  padding: 0 30px;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.inputTitle:focus {
+  outline: 1px solid;
+  border-radius: 4px;
+}
+
+.inputCategory:focus {
+  outline: 1px solid;
+  border-radius: 4px;
+}
+
+.miniheader {
+  width: 10.875rem;
+  height: 1.5rem;
+  margin: 1.813rem 32.75rem 1.188rem 0;
+  font-family: Montserrat;
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.18px;
+  color: #888;
+}
