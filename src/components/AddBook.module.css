@@ -10,7 +10,8 @@
 }
 
 .inputTitle,
-.inputCategory {
+.inputCategory,
+.inputAuthor {
   padding: 10px;
   width: 28.5rem;
   margin-right: 20px;
@@ -20,6 +21,12 @@
 }
 
 .addBtn {
+  color: #fff;
+  border: none;
+  padding: 0 30px;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
   background: #0290ff;
 }
 
@@ -27,15 +34,6 @@
   box-shadow: 0 0 6px #6e6e6e;
   background: brown;
   transition: all 0.5s ease-in-out;
-}
-
-.addBtn {
-  color: #fff;
-  border: none;
-  padding: 0 30px;
-  border-radius: 5px;
-  font-weight: 600;
-  cursor: pointer;
 }
 
 .inputTitle:focus {
@@ -52,7 +50,7 @@
   width: 10.875rem;
   height: 1.5rem;
   margin: 1.813rem 32.75rem 1.188rem 0;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.25rem;
   font-weight: bold;
   font-stretch: normal;
@@ -60,4 +58,8 @@
   line-height: normal;
   letter-spacing: -0.18px;
   color: #888;
+}
+
+.container {
+  margin: 40px;
 }
