@@ -51,7 +51,9 @@ body {
 }
 
 .author {
-  color: #4386bf;
+  color: #748cbf;
+  font-size: 12px;
+  font-weight: 300;
 }
 
 .update {
@@ -65,15 +67,15 @@ body {
 
 .button {
   border: none;
-  color: #fff;
-  background-color: #0290ff;
+  color: #748cbf;
   cursor: pointer;
   padding: 12px 20px;
-  border-radius: 4px;
+  background-color: #fff;
 }
 
-.button:active {
-  background-color: grey;
+.button:hover {
+  background-color: #0290ff;
+  color: #fff;
 }
 
 .progress-percent {
@@ -83,8 +85,9 @@ body {
 
 .functions {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   color: #4386bf;
+  /* height: 15px; */
   font-size: 0.85rem;
 }
 
@@ -102,6 +105,12 @@ body {
 .adds {
   display: flex;
   align-items: center;
+}
+
+hr {
+  height: 20px;
+  display: flex;
+  margin-top: 10px;
 }
 
 .hr {
