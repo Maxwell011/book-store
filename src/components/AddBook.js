@@ -8,21 +8,22 @@ function AddBook() {
   let category = '';
   let author = '';
   const dispatch = useDispatch();
-  const clearAll = () => {
-    setTimeout(() => {
-      title = '';
-      category = '';
-      author = '';
-    });
+  const clearInput = () => {
+    const title = document.querySelector('.title');
+    const author = document.querySelector('.author');
+    title.value = '';
+    author.value = '';
   };
   const handleClick = (e) => {
     e.preventDefault();
     dispatch(
       addBook({
-        id: String(`${Date.now()}`), title, author, category,
+        id: String(`${Date.now()}`),
+        title,
+        author,
+        category,
       }),
     );
-    clearAll();
   };
 
   const handleChange = (e) => {
@@ -35,32 +36,33 @@ function AddBook() {
     if (e.target.name === 'category') {
       category = e.target.value;
     }
+    clearInput();
   };
 
   return (
     <div className={styles.container}>
       <p className={styles.miniheader}>Add New Book</p>
-      <form className={styles.formContainer}>
+      <form className={styles.form}>
         <input
           type="text"
           name="title"
           onChange={handleChange}
-          placeholder="Title of the book"
-          className={styles.input}
+          placeholder="Book Title"
+          className={styles.inputTitle}
         />
         <input
           type="text"
           name="author"
           onChange={handleChange}
-          placeholder="author name"
-          className={styles.input}
+          placeholder="Author name"
+          className={styles.inputAuthor}
         />
         <input
           type="text"
           name="category"
           onChange={handleChange}
-          placeholder="category"
-          className={styles.input}
+          placeholder="Category"
+          className={styles.inputCategory}
         />
         <button
           type="submit"

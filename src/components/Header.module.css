@@ -1,7 +1,45 @@
-.header {
+.headerWrapper {
+  background: white;
+}
+
+.Bookstore {
+  height: 2.313rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #0290ff;
+}
+
+.navbar {
   display: flex;
   align-items: center;
-  width: 100%;
-  padding: 2rem;
-  gap: 2rem;
+  margin: 0 0 0 40px;
+}
+
+.navul {
+  display: flex;
+  text-decoration: none;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+  padding: 10px;
+}
+
+a {
+  color: #121212;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon {
+  display: flex;
+  margin-left: 48pc;
+  font-size: 45px;
+  color: #0290ff;
 }

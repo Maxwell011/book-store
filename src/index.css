@@ -1,27 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;600;700;800&family=Montserrat&family=Roboto+Slab&family=Roboto:wght@700&display=swap");
+
 body {
+  background-color: #f1f2f6;
   margin: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 4%;
+  font-family: "Montserrat", sans-serif;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+.body {
+  background: white;
+  padding: 1%;
+}
+
+.percent-div {
+  margin-inline-start: 0;
+}
+
+.progressBarWrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.title-heading {
+  font-family: "Roboto-Slab", sans-serif;
+  text-transform: capitalize;
+  width: 22.813rem;
+  height: 1.813rem;
+  margin: 0.188rem 9.688rem 0 0;
+  font-size: 1.375rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.2px;
+}
+
+.category {
+  text-transform: capitalize;
+  opacity: 0.5;
+  width: 4.313rem;
+  height: 1.125rem;
+  margin: 0 1.188rem 0 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.author {
+  color: #748cbf;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.update {
+  background-color: #0290ff;
+  padding: 15px 20px;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button {
+  border: none;
+  color: #748cbf;
+  cursor: pointer;
+  padding: 12px 20px;
+  background-color: #fff;
+}
+
+.button:hover {
+  background-color: #0290ff;
+  color: #fff;
+}
+
+.progress-percent {
+  font-size: 40px;
+  color: #0290ff;
+}
+
+.functions {
+  display: flex;
+  gap: 10px;
+  color: #4386bf;
+  font-size: 0.85rem;
+}
+
+.card {
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 3%;
+  margin: 40px;
+  box-shadow: 0 0 2px #6e6e6e;
+}
+
+.adds {
+  display: flex;
+  align-items: center;
+}
+
+hr {
+  height: 20px;
+  display: flex;
+  margin-top: 10px;
+}
+
+.hr {
+  background-color: #282828;
+  padding: 1px;
+  height: 100px;
+  opacity: 0.3;
+}
+
+.chapter {
+  padding: 7px;
+}
+
+.progress-bar {
+  font-size: 20px;
+}
+
+.check-btn {
+  background-color: #0290ff;
+  padding: 15px 20px;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.status {
+  font-size: 3rem;
+  text-align: center;
+  color: brown;
 }

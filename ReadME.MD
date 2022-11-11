@@ -42,7 +42,7 @@ Template from this [MICROVERSE](https://www.microverse.org/)
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/jheart-vic/BookStore/issues).
+Feel free to check the [issues page](https://github.com/orji-Maxwell/BookStore/issues).
 
 ## Show your support
 
