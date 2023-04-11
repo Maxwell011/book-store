@@ -16,7 +16,7 @@ This is an app that  displays a list of books, allow users add a book and remove
 ![Screenshot (111)](https://user-images.githubusercontent.com/67344757/201355270-9ff7b236-e331-41ec-9e37-598d4ecb1be3.png)
 
 ## Live demo link
-- [Live link]([https://book-store-b42ktopqk-maxwell011.vercel.app/])
+- [Live link](https://book-store-b42ktopqk-maxwell011.vercel.app/)
 
 ## Getting Started
 
