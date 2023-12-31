@@ -29,8 +29,12 @@ To get a local copy up and running:
 2. use the following commands
 
 **``npm install ``**, 
-**``npm start``**
 
+
+3. Then add the following command
+   **``npm start``**
+
+   
 ## Author
 
 👤 **Orji Maxwell**
